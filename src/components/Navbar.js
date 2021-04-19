@@ -8,7 +8,7 @@ export default function Navbar() {
     <div>
       <div className="bg-blueGray-50 border border-b border-blueGray-300">
         <Container>
-          <div className="flex justify-between items-center py-6">
+          <div className="flex flex-col xl:flex-row justify-between items-center py-3 xl:py-6">
             <div>
               <NavLink
                 to="/"
@@ -21,8 +21,8 @@ export default function Navbar() {
                 </span>
               </NavLink>
             </div>
-            <div>
-              <ul className="flex space-x-6">
+            <div className="py-2 xl:py-0">
+              <ul className="flex space-x-4 xl:space-x-6">
                 <li className="font-semibold text-sm text-blueGray-700">
                   <NavLink to="/" exact activeClassName="text-lightBlue-700">
                     Home
