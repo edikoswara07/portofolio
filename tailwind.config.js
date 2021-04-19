@@ -13,7 +13,12 @@ module.exports = {
       blueGray: colors.blueGray,
       lightBlue: colors.lightBlue,
     },
-    extend: {},
+    extend: {
+      spacing: {
+        100: "28.125rem",
+        110: "40.063rem",
+      },
+    },
   },
   variants: {
     extend: {

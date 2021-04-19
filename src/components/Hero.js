@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <div>
       <Container>
-        <div className="flex justify-between items-center space-x-4 xl:mt-8">
+        <div className="flex justify-between items-center space-x-4 py-20">
           <div className="xl:w-6/12">
             <h1 className="text-7xl font-light leading-relaxed tracking-wide text-blueGray-500">
               Hello
