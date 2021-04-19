@@ -19,10 +19,10 @@ export default function About() {
               </div>
             </div>
             <div className="w-6/12">
-              <h1 className="text-5xl  tracking-wide text-blueGray-900">
+              <h1 className="text-5xl leading-relaxed tracking-wide text-blueGray-900">
                 About Me
               </h1>
-              <p className="mt-8 leading-relaxed tracking-wide font-semibold text-blueGray-900">
+              <p className="mt-5 leading-relaxed tracking-wide font-semibold text-blueGray-900">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris

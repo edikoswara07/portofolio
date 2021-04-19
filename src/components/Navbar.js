@@ -13,7 +13,6 @@ export default function Navbar() {
               <NavLink
                 to="/"
                 exact
-                activeClassName="text-lightBlue-700"
                 className="font-bold text-xl text-blueGray-700 leading-relaxed tracking-wide"
               >
                 Edi
